@@ -1,0 +1,252 @@
+a:link {
+  color: #E52D39;
+}
+
+a:visited {
+  color: #A62f03;
+}
+
+a:hover {
+  color: #f26716;
+}
+
+a:active {
+  color: #591202;
+}
+.meniu {
+    display: flex;
+    gap: 33px;
+    justify-content: left;
+    align-content: left;
+    background-color: #0F0506;
+    padding: 10px;
+}
+.buton {
+    flex: 0 0 auto;
+    position: relative;
+}
+.buton img {
+    width: auto;
+    height: 25px;
+    object-fit: cover;
+    transition: transform .2s;
+    margin-top: 13px;
+}
+.logo img {
+    height: 50px;
+    width:auto;
+    object-fit: cover;
+    transition: transform .2s;
+}
+.logo img:hover {
+    transform: scale(1.1);
+}
+.buton img:hover {
+    transform: scale(1.15);
+}
+#Img_echipa{
+    float: left;
+    position: relative;
+    border-radius: 25px;
+    width: 47%;
+    height: auto;
+    margin-right: 30px;
+}
+.about{
+    margin-top: 100px;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Img_Robotel{
+    float: right;
+    position: relative;
+    border-radius: 25px;
+    width: 47%;
+    height: auto;
+    margin-left: 30px;
+}
+.about1{
+    margin-bottom: 200px;
+}
+.Title{
+    font-size: 50px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.blue{
+    text-decoration: underline;
+    text-decoration-color: #002B7F;
+    text-decoration-thickness: 3px;
+}
+.yellow{
+    text-decoration: underline;
+    text-decoration-color: #FCD116;
+    text-decoration-thickness: 3px;
+}
+.red{
+    text-decoration: underline;
+    text-decoration-color: #CE1126;
+    text-decoration-thickness: 3px;
+}
+#Portret{
+    width: 100%;
+    height: auto;
+}
+.imagine_principala{
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.Contact_Us{
+    margin-top: 500px;
+    text-align:center;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    word-spacing: 40px;
+    
+}
+#Nr_tel{
+    word-spacing: 2px;
+}
+.Contact_Us img {
+    width: 60px;
+    height: auto;
+}
+.Quote{
+    text-align:center;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.row-1{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 4%;
+}
+.PSS{
+    border-style: solid;
+    border-color: #F26716;
+    width: 28%;
+    margin-left: 4%;
+}
+.Event_img_1{
+    display: flex;
+    aspect-ratio: 3/1;
+}
+.Event_img_1 img{
+width: 33%;
+height: 100%;
+overflow: hidden;
+}
+.desc-event{
+    text-align:center;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.DUR{
+    border-style: solid;
+    border-color: #F26716;
+    width: 28%;
+}
+.RoboReach{
+    border-style: solid;
+    border-color: #F26716;
+    width: 28%;
+    margin-right: 4%;
+}
+.mecanisme{
+    margin-top: 60px;
+    display:flex;
+    column-gap: 4%;
+    margin-left: 7%;
+}
+.mecanisme img{
+    width: 100%;
+    height: 100%;
+}
+.descriere_mecanism{
+    display:flex;
+    column-gap: 6.5%;
+    margin-left: 3%;
+    margin-top: 60px;
+}
+.descriere_mecanism img{
+    width: 50%;
+}
+.text_mecanism{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40%;
+    margin-top: 15%;
+}
+#Nume_mecanism{
+    font-size: 55px;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-align: center;
+}
+#buton1 :hover{
+    transition: background-color 0.6s, border-radius 0s, border-color 0.6s ;
+    background-color: #F26716; 
+    border-color:#F26716;
+    border-radius: 25px;
+}
+#buton2 :hover{
+    transition: background-color 0.6s, border-radius 0s, border-color 0.6s ;
+    background-color: #F26716; 
+    border-color:#F26716;
+    border-radius: 25px;
+}
+#buton3 :hover{
+    transition: background-color 0.6s, border-radius 0s, border-color 0.6s ;
+    background-color: #F26716; 
+    border-color:#F26716;
+    border-radius: 25px;
+}
+#buton4 :hover{
+    transition: background-color 0.6s, border-radius 0s, border-color 0.6s ;
+    background-color: #F26716; 
+    border-color:#F26716;
+    border-radius: 25px;
+}
+.Quote2{
+    text-align:center;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.Bule_Sponsori img{
+    width:74%;
+    height: auto;
+    margin-left: 13%;
+}
+.Beneficii_Sponsori{
+    margin-top: 100px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+.Subtitle{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
